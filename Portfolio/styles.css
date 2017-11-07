@@ -1,0 +1,221 @@
+body {
+    width: 2481px;
+    height: 3509px;
+    margin: auto;
+}
+
+.page-header {
+    margin-top: 192px;
+    margin-left: 107px;
+    width: 2261px;
+    height: 304px;
+}
+
+.page-header__name {
+    font-size: 68px;
+    color: #414042;
+    font-family: "Century Gothic Regular";
+}
+
+.page-header__post {
+    font-size: 38px;
+    marging-top: 30px;
+    color: #414042;
+}
+
+.page-header__info {
+    marging: 86px;
+    font-size: 32px;
+    color: #9d9fa1;
+}
+
+.line {
+    border: none;
+    margin-top: 0;
+    margin-left: 107px;
+    background-color: #a5a5a6;
+    color: #a5a5a6;
+    height: 2px;
+}
+
+img {
+    margin-top: 70px;
+    height: 522px;
+    width: 784px;
+}
+
+.content__education,
+.content__experience,
+.content__reference {
+    margin-top: 74px;
+}
+
+.content__skills,
+.content__software {
+    margin-top: 60px;
+}
+
+.content__about-me-title,
+.content__education-title,
+.content__experience-title,
+.content__software-title,
+.content__reference-title,
+.content__skills-title {
+    width: 342px;
+    height: 81px;
+    font-size: 42px;
+    font-family: "Century Gothic Bold";
+    color: #434244;
+    background-color: #e8c734;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content__item-name {
+    margin-top: 30px;
+    font-family: "Century Gothic Regular";
+    font-size: 36px;
+    color: #434244;
+}
+
+.content__education-date {
+    margin-top: 50px;
+    font-family: "Century Gothic Bold";
+    font-size: 36px;
+    color: #828385;
+}
+
+.content__education-item {
+    margin-top: 20px;
+    width: 977px;
+}
+
+.content__education-speciality {
+    font-family: "Century Gothic Bold";
+    font-size: 35px;
+    color: #434244;
+}
+
+.content__characters {
+    float: left;
+    width: 30%;
+    margin-left: 107px;
+}
+
+.content__personal-info {
+    margin-top: 70px;
+    margin-left: 111px;
+    float: right;
+    width: 50%;
+}
+
+.content__item {
+    margin-top: 50px;
+}
+
+.content__item-rating-10 {
+    border: 2px solid #a5a5a6;
+    height: 28px;
+    width: 620px;
+}
+
+.content__item-rating-1of10 {
+    border: none;
+    height: 28px;
+    width: 62px;
+    background-color: #bbbcbe;
+}
+
+.content__item-rating-3of10 {
+    border: none;
+    height: 28px;
+    width: 186px;
+    background-color: #bbbcbe;
+}
+
+.skills__item-rating-7of10 {
+    border: none;
+    height: 28px;
+    width: 434px;
+    background-color: #bbbcbe;
+}
+
+.skills__item-rating-8of10 {
+    border: none;
+    height: 28px;
+    width: 496px;
+    background-color: #bbbcbe;
+}
+
+.skills__item-rating-9of10 {
+    border: none;
+    height: 28px;
+    width: 558px;
+    background-color: #bbbcbe;
+}
+
+.content__reference-info {
+    margin-top: 40px;
+}
+
+.content__reference-name {
+    margin-top: 2px;
+    font-family: "Lato Bold";
+    font-size: 40px;
+    color: #434244;
+}
+
+.content__reference-post {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "Century Gothic Regular";
+    font-size: 36px;
+    color: #434244;
+}
+
+.content__reference-contacts {
+    font-family: "Century Gothic Regular";
+    font-size: 32px;
+    color: #9c9da0;
+}
+
+.content__reference-phone:hover,
+.content__reference-email:hover {
+    color: darkorange;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/Century Gothic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic Bold';
+    src: url('../fonts/Century Gothic Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic Italic';
+    src: url('../fonts/Century Gothic Italic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic Regular';
+    src: url('../fonts/Century Gothic Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('../fonts/Lato Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
